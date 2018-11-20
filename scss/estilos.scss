@@ -1,0 +1,251 @@
+$secundario:#3C3D41;
+
+
+
+
+
+html {
+    font-size: 17px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: #F6F7F9;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+h4 {
+    font-size: .8rem;
+}
+
+/*Navegación*/
+
+
+
+
+.navegacion .encabezado  {
+    background-color: #fff;
+    padding: 0;
+    
+   
+
+}
+
+
+
+
+.navegacion .encabezado .container .navbar .navbar-toggler{
+    background: #049AC5;
+}
+
+
+.navegacion .encabezado .container .navbar .navbar-collapse ul li a{
+    color: #049AC5;
+    
+ }   
+
+/*Sección Buscador*/
+
+.clima {
+    margin-top: 2.7rem;
+    color: white;
+}
+
+.clima .fas {
+    font-size: 3rem;
+
+
+}
+
+.clima .grados {
+    font-size: 2rem;
+
+}
+
+.jumbotron {
+    background-image: url(../images/bg-principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed !important;
+
+
+
+}
+
+.jumbotron .container .categories {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+}
+
+.jumbotron .container .categories a >.category-card {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 1rem;
+    width: 6rem;
+    height: 5em;
+    background-color: rgba(255,255,255,.3);
+    color: white;
+    text-decoration: none;
+
+}
+
+.jumbotron .container .categories a .category-card:hover{
+    border: #2C81FA solid 3px;
+    background-color: white;
+    color: #2C81FA;
+}
+
+.jumbotron .container .categories a:hover{
+    text-decoration: none;
+}
+
+
+.jumbotron .container .categories .category-card .fas {
+    font-size: 1.5rem;
+}
+
+.jumbotron .container .categories .category-card p {
+    margin-bottom: 0;
+    margin-top: 5px;
+
+}
+
+/*Sección ADN*/
+
+.adn .container h2 {
+    color: $secundario;
+    font-size: 1.5rem;
+}
+
+.adn .container p {
+    color: $secundario;
+
+}
+
+.adn .container .products h3 {
+    color: $secundario;
+}
+
+.adn .container .products .fas {
+    color: #F98100;
+}
+
+.adn .container .image img {
+    max-width: auto;
+    margin-top: 1rem;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+
+/*BLOG*/
+
+.blog {
+    background-image: url(../images/blog-principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed !important;
+    color: $secundario;
+    padding: 1rem;
+}
+
+.blog h2 {
+
+    color: white;
+}
+
+.blog .cardsBlog {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.blog .cardsBlog h5 {
+    font-size: 1rem;
+    color: black;
+}
+
+
+.blog .cardsBlog p {
+    font-size: .8rem;
+    color: black;
+}
+
+.blog .cardsBlog h5:hover p:hover{
+    text-decoration: none;
+}
+
+
+.blog .container .card img {
+    max-height: 10rem;
+    object-fit: cover;
+}
+
+.blog .container .badge {
+    width: 40%;
+
+}
+
+.blog .container .card .card-body {
+    max-height: 11rem;
+
+}
+
+
+/*Descarga nuestra app*/
+
+.descarga h1 {
+    color: $secundario;
+}
+
+.descarga p {
+    color: $secundario;
+}
+
+.descarga .container .title .badges img {
+    width: 7rem;
+    display: flex;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+.descarga .container .title .app img {
+    width: 80%;
+    display: flex;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+/*Atención a clientes*/
+
+.contacto {
+    background-color: #056ECC;
+    padding: .5rem;
+}
+
+.contacto > p {
+    color: white;
+}
+
+/*footer*/
+
+.footer h5{
+    color: $secundario;
+    font-size: .7rem;
+}
